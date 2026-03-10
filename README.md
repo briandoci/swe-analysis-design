@@ -77,3 +77,68 @@ Customer, Job, Stop (pickup/drop-off), Container, Truck, Driver, Assignment, Doc
 5. Upload proof of delivery
 6. Create invoice and record payment
 7. Basic weekly report
+
+## Stakeholders
+1. Company Management
+
+Owners or senior managers of the container delivery company.
+
+Interested in business performance, operational efficiency, and revenue reports.
+
+Use system reports to make strategic decisions.
+
+2. Dispatchers
+
+Responsible for creating jobs and assigning trucks, containers, and drivers.
+
+Use the scheduling/dispatch module to manage deliveries and avoid conflicts.
+
+Depend on the system for real-time job management.
+
+3. Drivers
+
+Receive assigned delivery jobs through the system.
+
+Update job status (in transit, delivered).
+
+Upload proof of delivery (POD) and delivery documents.
+
+4. Yard Staff
+
+Manage the physical containers in the yard.
+
+Update container check-in/check-out, condition, and inspection reports.
+
+Ensure containers are available and ready for assignments.
+
+5. Accountants / Finance Department
+
+Handle invoices, payments, and financial tracking.
+
+Use the system to generate invoices and monitor unpaid payments.
+
+Produce financial reports.
+
+6. Customers
+
+Companies or individuals requesting container delivery services.
+
+Provide job requests and delivery information.
+
+May track delivery status and invoices through the system (if a customer portal exists).
+
+7. System Administrator
+
+Responsible for maintaining the system, managing users, and configuring data.
+
+Ensures the system runs correctly and securely.
+
+8. IT Support / Developers
+
+Maintain, update, and troubleshoot the system.
+
+Ensure system reliability, security, and performance.
+
+9. Regulatory Authorities (External Stakeholder)
+
+Government or transportation regulators who may require documentation, safety compliance, and operational records.
