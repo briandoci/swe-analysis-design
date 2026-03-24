@@ -142,3 +142,15 @@ Ensure system reliability, security, and performance.
 9. Regulatory Authorities (External Stakeholder)
 
 Government or transportation regulators who may require documentation, safety compliance, and operational records.
+
+## Diagrams
+
+### User Cards
+
+![User Cards](docs/user-cards.svg)
+
+### Onion Diagram
+
+The onion diagram shows stakeholder proximity to the core system — inner layers interact directly with CDMS daily, outer layers have indirect or oversight roles.
+
+![Onion Diagram](docs/onion-diagram.svg)
