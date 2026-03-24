@@ -1,0 +1,82 @@
+<svg width="680" height="660" viewBox="0 0 680 660" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff; font-family: Arial, sans-serif;">
+
+  <!-- Layer 3: External stakeholders -->
+  <circle cx="340" cy="330" r="290" fill="#EEEDFE" fill-opacity="0.5" stroke="#AFA9EC" stroke-width="1"/>
+  <!-- Layer 2: Supporting users -->
+  <circle cx="340" cy="330" r="218" fill="#E6F1FB" fill-opacity="0.55" stroke="#85B7EB" stroke-width="1"/>
+  <!-- Layer 1: Direct users -->
+  <circle cx="340" cy="330" r="148" fill="#E1F5EE" fill-opacity="0.65" stroke="#5DCAA5" stroke-width="1"/>
+  <!-- Core -->
+  <circle cx="340" cy="330" r="78" fill="#FAEEDA" stroke="#EF9F27" stroke-width="1.5"/>
+
+  <!-- Core text -->
+  <text x="340" y="323" text-anchor="middle" font-size="14" font-weight="bold" fill="#633806">CDMS</text>
+  <text x="340" y="341" text-anchor="middle" font-size="11" fill="#854F0B">Core System</text>
+
+  <!-- Layer labels -->
+  <text x="214" y="198" text-anchor="middle" font-size="11" fill="#3B6D11" opacity="0.85">Direct users</text>
+  <text x="150" y="150" text-anchor="middle" font-size="11" fill="#185FA5" opacity="0.85">Supporting users</text>
+  <text x="88" y="100" text-anchor="middle" font-size="11" fill="#534AB7" opacity="0.85">External stakeholders</text>
+
+  <!-- ── LAYER 1: Direct users (r≈148) ── -->
+
+  <!-- Dispatcher — top -->
+  <rect x="272" y="148" width="136" height="46" rx="9" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.8"/>
+  <text x="340" y="167" text-anchor="middle" font-size="13" font-weight="bold" fill="#0C447C">Dispatcher</text>
+  <text x="340" y="183" text-anchor="middle" font-size="11" fill="#185FA5">Creates &amp; assigns jobs</text>
+
+  <!-- Driver — left -->
+  <rect x="134" y="308" width="118" height="46" rx="9" fill="#EAF3DE" stroke="#97C459" stroke-width="0.8"/>
+  <text x="193" y="327" text-anchor="middle" font-size="13" font-weight="bold" fill="#27500A">Driver</text>
+  <text x="193" y="343" text-anchor="middle" font-size="11" fill="#3B6D11">Updates &amp; delivers</text>
+
+  <!-- Yard Staff — right -->
+  <rect x="428" y="308" width="118" height="46" rx="9" fill="#FAEEDA" stroke="#EF9F27" stroke-width="0.8"/>
+  <text x="487" y="327" text-anchor="middle" font-size="13" font-weight="bold" fill="#633806">Yard Staff</text>
+  <text x="487" y="343" text-anchor="middle" font-size="11" fill="#854F0B">Manages containers</text>
+
+  <!-- ── LAYER 2: Supporting users (r≈218) ── -->
+
+  <!-- Admin — upper right -->
+  <rect x="454" y="180" width="130" height="46" rx="9" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.8"/>
+  <text x="519" y="199" text-anchor="middle" font-size="13" font-weight="bold" fill="#3C3489">Administrator</text>
+  <text x="519" y="215" text-anchor="middle" font-size="11" fill="#534AB7">Users &amp; config</text>
+
+  <!-- Accountant — upper left -->
+  <rect x="96" y="180" width="130" height="46" rx="9" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.8"/>
+  <text x="161" y="199" text-anchor="middle" font-size="13" font-weight="bold" fill="#085041">Accountant</text>
+  <text x="161" y="215" text-anchor="middle" font-size="11" fill="#0F6E56">Invoices &amp; payments</text>
+
+  <!-- Management — bottom -->
+  <rect x="272" y="460" width="136" height="46" rx="9" fill="#FBEAF0" stroke="#ED93B1" stroke-width="0.8"/>
+  <text x="340" y="479" text-anchor="middle" font-size="13" font-weight="bold" fill="#72243E">Management</text>
+  <text x="340" y="495" text-anchor="middle" font-size="11" fill="#993556">Reports &amp; strategy</text>
+
+  <!-- ── LAYER 3: External stakeholders (r≈290) ── -->
+
+  <!-- Customer — far right -->
+  <rect x="548" y="307" width="110" height="46" rx="9" fill="#FAECE7" stroke="#F0997B" stroke-width="0.8"/>
+  <text x="603" y="326" text-anchor="middle" font-size="13" font-weight="bold" fill="#712B13">Customer</text>
+  <text x="603" y="342" text-anchor="middle" font-size="11" fill="#993C1D">Job requests, portal</text>
+
+  <!-- IT / Dev — far left -->
+  <rect x="22" y="307" width="110" height="46" rx="9" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/>
+  <text x="77" y="326" text-anchor="middle" font-size="13" font-weight="bold" fill="#2C2C2A">IT / Devs</text>
+  <text x="77" y="342" text-anchor="middle" font-size="11" fill="#5F5E5A">Maintain system</text>
+
+  <!-- Regulators — bottom far -->
+  <rect x="272" y="558" width="136" height="46" rx="9" fill="#FCEBEB" stroke="#F09595" stroke-width="0.8"/>
+  <text x="340" y="577" text-anchor="middle" font-size="13" font-weight="bold" fill="#791F1F">Regulators</text>
+  <text x="340" y="593" text-anchor="middle" font-size="11" fill="#A32D2D">Compliance &amp; docs</text>
+
+  <!-- Legend -->
+  <rect x="40" y="622" width="13" height="13" rx="2" fill="#FAEEDA" stroke="#EF9F27" stroke-width="0.8"/>
+  <text x="60" y="632" font-size="11" fill="#854F0B">Core system</text>
+  <rect x="138" y="622" width="13" height="13" rx="2" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.8"/>
+  <text x="158" y="632" font-size="11" fill="#0F6E56">Direct users</text>
+  <rect x="238" y="622" width="13" height="13" rx="2" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.8"/>
+  <text x="258" y="632" font-size="11" fill="#185FA5">Supporting users</text>
+  <rect x="376" y="622" width="13" height="13" rx="2" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="0.8"/>
+  <text x="396" y="632" font-size="11" fill="#534AB7">External stakeholders</text>
+
+</svg>
