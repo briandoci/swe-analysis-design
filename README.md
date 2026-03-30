@@ -154,3 +154,8 @@ Government or transportation regulators who may require documentation, safety co
 The onion diagram shows stakeholder proximity to the core system — inner layers interact directly with CDMS daily, outer layers have indirect or oversight roles.
 
 ![Onion Diagram](docs/onion-diagram.svg)
+
+### ER Diagram
+An Entity-Relationship (ER) diagram is a visual map used in database design to show how "entities" (like people, objects, or concepts) relate to one another within a system.
+
+![ER Diagram](docs/er.png)
