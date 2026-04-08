@@ -155,6 +155,7 @@ The onion diagram shows stakeholder proximity to the core system — inner layer
 
 ![Onion Diagram](docs/onion-diagram.svg)
 
+
 ### ER Diagram
 An Entity-Relationship (ER) diagram is a visual map used in database design to show how "entities" (like people, objects, or concepts) relate to one another within a system.
 
