@@ -164,5 +164,6 @@ An Entity-Relationship (ER) diagram is a visual map used in database design to s
 ### BPMN Diagrams
 A BPMN (Business Process Model and Notation) diagram is a standardized flowchart used to visualize, analyze, and automate business processes.
 
-![BPMN Diagram](docs/bpmn.png)
-![BPMN Diagram](requirements/bpmn-1.jpg)
+![BPMN Diagram](requirements/bpmn-1.png)
+![BPMN Diagram](requirements/bpmn-2.png)
+![BPMN Diagram](requirements/bpmn-3.png)
