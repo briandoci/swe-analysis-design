@@ -160,3 +160,8 @@ The onion diagram shows stakeholder proximity to the core system — inner layer
 An Entity-Relationship (ER) diagram is a visual map used in database design to show how "entities" (like people, objects, or concepts) relate to one another within a system.
 
 ![ER Diagram](docs/er.png)
+
+### BPMN Diagrams
+A BPMN (Business Process Model and Notation) diagram is a standardized flowchart used to visualize, analyze, and automate business processes.
+
+![ER Diagram](docs/bpmn.svg)
