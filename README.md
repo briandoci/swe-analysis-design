@@ -1,6 +1,6 @@
-# 🚛 Container Delivery Management System
+#  Container Delivery Management System
 
-## 📝 Project Description
+##  Project Description
 
 A Container Delivery Management System is an integrated platform designed to help container delivery companies manage their operations in one centralized place. It covers the full delivery lifecycle — from job creation and resource assignment, to delivery tracking, proof of delivery, invoicing, and payment management.
 
@@ -8,7 +8,7 @@ This system brings together all key operational roles — dispatchers, drivers, 
 
 ---
 
-## 👨‍💻 Contributors
+##  Contributors
 
 - **Brian Doci**
 - **Irda Elezi**
@@ -28,7 +28,7 @@ This system brings together all key operational roles — dispatchers, drivers, 
 
 ---
 
-## 🔄 Main System Flow
+##  Main System Flow
 
 > **Job request → Assign resources → Deliver → Proof of Delivery → Invoice → Payment**
 
@@ -40,7 +40,7 @@ This system brings together all key operational roles — dispatchers, drivers, 
 
 ---
 
-## 📦 System Modules
+##  System Modules
 
 ### Customers
 - Customer information and billing details
@@ -86,7 +86,7 @@ This system brings together all key operational roles — dispatchers, drivers, 
 
 ---
 
-## 👥 Roles & Users
+##  Roles & Users
 
 | Role | Responsibilities |
 |---|---|
@@ -105,7 +105,7 @@ This system brings together all key operational roles — dispatchers, drivers, 
 
 ---
 
-## ✅ MVP Features (Minimum Viable Product)
+##  MVP Features (Minimum Viable Product)
 
 1. Add and manage customers
 2. Create jobs (pickup / drop-off / date / container type)
@@ -117,7 +117,7 @@ This system brings together all key operational roles — dispatchers, drivers, 
 
 ---
 
-## 🏢 Stakeholders
+##  Stakeholders
 
 1. **Company Management** — owners and senior managers interested in operational efficiency and revenue
 2. **Dispatchers** — create and manage jobs, assign resources, monitor the dispatch board
@@ -131,7 +131,7 @@ This system brings together all key operational roles — dispatchers, drivers, 
 
 ---
 
-## 🎓 About
+##  About
 
 This repository is the course project for **Software Engineering Analysis and Design**, Second Year Second Semester, at **University Metropolitan Tirana**.
 
