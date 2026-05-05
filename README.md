@@ -1,146 +1,139 @@
-# Container Delivery Management System
+# 🚛 Container Delivery Management System
 
-## What it is
-An app for a container delivery company to manage jobs, containers, trucks, drivers, documents, and invoices in one place.
+## 📝 Project Description
 
-## Main flow
-*Job request → Assign resources → Deliver → Invoice*
-1. A job is created (pickup, drop-off, date, container type, quantity).
-2. A dispatcher assigns container(s), a truck, and a driver.
-3. The driver delivers and updates the job status.
-4. Proof of delivery is saved.
-5. An invoice is created and payment is tracked.
+A Container Delivery Management System is an integrated platform designed to help container delivery companies manage their operations in one centralized place. It covers the full delivery lifecycle — from job creation and resource assignment, to delivery tracking, proof of delivery, invoicing, and payment management.
 
-## Modules
+This system brings together all key operational roles — dispatchers, drivers, yard staff, and accountants — into a single environment, eliminating manual processes and reducing scheduling conflicts. By providing real-time job tracking, document management, and financial reporting, the platform empowers the company to operate more efficiently, deliver consistently, and maintain clear financial records.
+
+---
+
+## 👨‍💻 Contributors
+
+- **Brian Doci**
+- **Irda Elezi**
+- **Antigoni Dinko**
+
+---
+
+## 📁 Repository Structure
+
+```
+📁 Use-Case-Diagrams/        → UML use case diagram + use case tables
+📁 Data-Flow-Diagrams/       → DFD Level 0 (context) + DFD Level 1 (processes)
+📁 ERD/                      → Entity Relationship Diagram
+📁 documentation/            → Full written analysis and design documentation
+📄 README.md                 → Project overview (this file)
+```
+
+---
+
+## 🔄 Main System Flow
+
+> **Job request → Assign resources → Deliver → Proof of Delivery → Invoice → Payment**
+
+1. A job is created with pickup/drop-off location, date, container type, and quantity.
+2. A dispatcher assigns a container, truck, and driver to the job.
+3. The driver picks up the container and updates the job status throughout delivery.
+4. Proof of delivery (POD) is uploaded upon completion.
+5. An invoice is generated and payment is tracked.
+
+---
+
+## 📦 System Modules
 
 ### Customers
-- Customer info
-- Contracts/prices (optional)
-- Billing details
+- Customer information and billing details
+- Optional: contracts and pricing agreements
 
 ### Jobs (Orders)
-- Create and edit jobs
-- Job status:
-  - Draft → Confirmed → Assigned → In Transit → Delivered → Closed → Invoiced
-- Notes and file uploads
+- Create and manage delivery jobs
+- Job status lifecycle: `Draft → Confirmed → Assigned → In Transit → Delivered → Closed → Invoiced`
+- Notes and file attachments per job
 
 ### Containers
-- List of containers (ID, type, condition)
-- Where each container is (yard, customer site, on truck)
-- Available / reserved / in use
+- Container registry (ID, type, size, condition)
+- Real-time location tracking (yard / customer site / on truck)
+- Status: Available / Reserved / In Use
 - Damage and inspection reports
 
 ### Trucks & Drivers
-- Truck list and basic info
-- Driver list and license expiry
-- Assign driver + truck to jobs
+- Truck list with basic vehicle info
+- Driver list with license expiry tracking
+- Assign driver + truck combinations to jobs
 
 ### Scheduling / Dispatch
-- Dispatch board (calendar/list)
-- Check conflicts (same truck/driver booked twice)
+- Dispatch board (calendar and list view)
+- Conflict detection (same truck or driver double-booked)
 
 ### Documents
 - Delivery note / waybill
-- Proof of delivery (POD)
-- Container handover/return form
+- Proof of Delivery (POD)
+- Container handover and return forms
 - Damage checklist
 
 ### Invoices & Payments
-- Create invoice after delivery
-- Track unpaid/paid
-- Extra charges (waiting time, extra stop) (optional)
+- Auto-generate invoices after delivery
+- Track paid / unpaid invoices
+- Optional: extra charges (waiting time, additional stops)
 
 ### Reports
-- Jobs per week/month
-- On-time deliveries
-- Truck/container usage
+- Jobs per week / month
+- On-time delivery rate
+- Truck and container utilization
 - Revenue per customer
-- Unpaid invoices
+- Unpaid invoice overview
 
-## Roles (users)
-- *Admin*: manage users and system data
-- *Dispatcher*: create jobs, assign containers/trucks/drivers
-- *Driver*: see assigned jobs, update status, upload POD
-- *Yard staff*: update container check-in/out and inspections
-- *Accountant*: invoices, payments, reports
-- *Customer (optional)*: request jobs and track status
+---
 
-## Main data (entities)
-Customer, Job, Stop (pickup/drop-off), Container, Truck, Driver, Assignment, Document, Invoice, Payment, Inspection, Maintenance (optional).
+## 👥 Roles & Users
 
-## MVP features (minimum)
-1. Add customers
-2. Create jobs (pickup/drop-off/date/container type)
-3. Assign container + truck + driver
-4. Update job status
+| Role | Responsibilities |
+|---|---|
+| **Admin** | Manage users, system configuration, and master data |
+| **Dispatcher** | Create jobs, assign containers, trucks, and drivers |
+| **Driver** | View assigned jobs, update delivery status, upload POD |
+| **Yard Staff** | Manage container check-in/out, condition, and inspections |
+| **Accountant** | Create invoices, track payments, generate financial reports |
+| **Customer** *(optional)* | Submit job requests and track delivery status |
+
+---
+
+## 🗂️ Core Entities
+
+`Customer` · `Job` · `Stop (pickup/drop-off)` · `Container` · `Truck` · `Driver` · `Assignment` · `Document` · `Invoice` · `Payment` · `Inspection`
+
+---
+
+## ✅ MVP Features (Minimum Viable Product)
+
+1. Add and manage customers
+2. Create jobs (pickup / drop-off / date / container type)
+3. Assign container + truck + driver to a job
+4. Update job status throughout the delivery lifecycle
 5. Upload proof of delivery
 6. Create invoice and record payment
-7. Basic weekly report
+7. Generate a basic weekly report
 
-## Stakeholders
-1. Company Management
+---
 
-Owners or senior managers of the container delivery company.
+## 🏢 Stakeholders
 
-Interested in business performance, operational efficiency, and revenue reports.
+1. **Company Management** — owners and senior managers interested in operational efficiency and revenue
+2. **Dispatchers** — create and manage jobs, assign resources, monitor the dispatch board
+3. **Drivers** — receive jobs, update status, upload proof of delivery
+4. **Yard Staff** — manage physical containers, check-in/out, and inspections
+5. **Accountants / Finance** — invoicing, payment tracking, and financial reporting
+6. **Customers** — request deliveries and optionally track job status
+7. **System Administrator** — user management, system configuration, and security
+8. **IT Support / Developers** — system maintenance, reliability, and updates
+9. **Regulatory Authorities** *(external)* — compliance with transportation and documentation requirements
 
-Use system reports to make strategic decisions.
+---
 
-2. Dispatchers
+## 🎓 About
 
-Responsible for creating jobs and assigning trucks, containers, and drivers.
-
-Use the scheduling/dispatch module to manage deliveries and avoid conflicts.
-
-Depend on the system for real-time job management.
-
-3. Drivers
-
-Receive assigned delivery jobs through the system.
-
-Update job status (in transit, delivered).
-
-Upload proof of delivery (POD) and delivery documents.
-
-4. Yard Staff
-
-Manage the physical containers in the yard.
-
-Update container check-in/check-out, condition, and inspection reports.
-
-Ensure containers are available and ready for assignments.
-
-5. Accountants / Finance Department
-
-Handle invoices, payments, and financial tracking.
-
-Use the system to generate invoices and monitor unpaid payments.
-
-Produce financial reports.
-
-6. Customers
-
-Companies or individuals requesting container delivery services.
-
-Provide job requests and delivery information.
-
-May track delivery status and invoices through the system (if a customer portal exists).
-
-7. System Administrator
-
-Responsible for maintaining the system, managing users, and configuring data.
-
-Ensures the system runs correctly and securely.
-
-8. IT Support / Developers
-
-Maintain, update, and troubleshoot the system.
-
-Ensure system reliability, security, and performance.
-
-9. Regulatory Authorities (External Stakeholder)
-
-Government or transportation regulators who may require documentation, safety compliance, and operational records.
+This repository is the course project for **Software Engineering Analysis and Design**, Second Year Second Semester, at **University Metropolitan Tirana**.
 
 ## Diagrams
 
