@@ -6,7 +6,7 @@
   <circle cx="340" cy="330" r="218" fill="#E6F1FB" fill-opacity="0.55" stroke="#85B7EB" stroke-width="1"/>
   <!-- Layer 1: Direct users -->
   <circle cx="340" cy="330" r="148" fill="#E1F5EE" fill-opacity="0.65" stroke="#5DCAA5" stroke-width="1"/>
-  <!-- Core -->
+  <!-- Core --> 
   <circle cx="340" cy="330" r="78" fill="#FAEEDA" stroke="#EF9F27" stroke-width="1.5"/>
 
   <!-- Core text -->
