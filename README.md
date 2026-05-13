@@ -6,7 +6,7 @@ A Container Delivery Management System is an integrated platform designed to hel
 
 This system brings together all key operational roles — dispatchers, drivers, yard staff, and accountants — into a single environment, eliminating manual processes and reducing scheduling conflicts. By providing real-time job tracking, document management, and financial reporting, the platform empowers the company to operate more efficiently, deliver consistently, and maintain clear financial records.
 
---- 
+---  
 
 ##  Contributors
 
