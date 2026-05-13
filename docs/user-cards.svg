@@ -11,7 +11,7 @@
 
   <!-- Dispatcher -->
   <g>
-    <rect x="40" y="96" width="260" height="190" rx="12" fill="white" stroke="#e2dfd8" stroke-width="1"/>
+    <rect x="40" y="96" width="260" height="190" rx="12" fill="white" stroke="#e2dfd8" stroke-width="1"/> 
     <rect x="40" y="96" width="260" height="3" rx="2" fill="#185FA5"/>
     <rect x="56" y="116" width="42" height="42" rx="10" fill="#E6F1FB"/>
     <text x="77" y="141" text-anchor="middle" font-size="13" font-weight="bold" fill="#185FA5">DS</text>
