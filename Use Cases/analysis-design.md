@@ -11,7 +11,7 @@
 
 | Field | Description |
 |---|---|
-| **Use Case ID** | UC-01 | 
+| **Use Case ID** | UC-01 |  
 | **Use Case Name** | Create Job |
 | **Actor(s)** | Dispatcher |
 | **Description** | The dispatcher creates a new delivery job by entering pickup/drop-off locations, date, container type, and quantity. |
