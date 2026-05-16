@@ -1,7 +1,7 @@
 <svg width="680" height="660" viewBox="0 0 680 660" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff; font-family: Arial, sans-serif;">
 
   <!-- Layer 3: External stakeholders -->
-  <circle cx="340" cy="330" r="290" fill="#EEEDFE" fill-opacity="0.5" stroke="#AFA9EC" stroke-width="1"/>
+  <circle cx="340" cy="330" r="290" fill="#EEEDFE" fill-opacity="0.5" stroke="#AFA9EC" stroke-width="1"/> 
   <!-- Layer 2: Supporting users -->
   <circle cx="340" cy="330" r="218" fill="#E6F1FB" fill-opacity="0.55" stroke="#85B7EB" stroke-width="1"/>
   <!-- Layer 1: Direct users -->
