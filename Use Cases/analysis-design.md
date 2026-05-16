@@ -9,7 +9,7 @@
 
 ### UC-01: Create Job
 
-| Field | Description |
+| Field | Description | 
 |---|---|
 | **Use Case ID** | UC-01 |  
 | **Use Case Name** | Create Job |
